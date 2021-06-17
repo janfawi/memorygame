@@ -1,8 +1,10 @@
 import Cells from "./Cells";
+import CellList from "./CellList";
+import classes from "./Row.module.css";
 
 const Row = () => (
-  <div class="flex-container">
-    <Cells />
+  <div className={classes.row}>
+    <CellList />
   </div>
 );
 export default Row;
